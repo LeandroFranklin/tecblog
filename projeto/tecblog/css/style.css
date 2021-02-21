@@ -1,0 +1,147 @@
+/* Formatação */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+img{
+	width: 380px;
+}
+
+ul{
+	list-style: none;
+}
+
+
+body, html{
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: #DCDCDC;
+}
+
+/* Topo */
+
+#topo{
+	background: gold;
+}
+
+#topo h1{
+	color: gray;
+	text-align: center;
+	font-size: 2.5em;
+	padding-top: 15px;
+}
+
+#topo #logo-branco{
+	color: white;
+}
+
+#topo #links-topo{
+	padding: 15px 0;
+	text-align: center;
+}
+
+#topo #links-topo a{
+	margin: 0 12px;
+	color: white;
+	font-size: 1.2em;
+	display: inline;
+}
+
+#topo #links-topo a:hover{
+	background: white;
+	color: orange;
+}
+
+/* Conteúdo */
+
+#conteudos{
+	width: 720px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#conteudos-principais{
+	width: 400px;
+	float: left;
+}
+
+.conteudo-principal{
+	background: white;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+.conteudo-principal span{
+	padding-bottom: 10px;
+	display: block;
+	font-size: 0.8em;
+}
+
+.conteudo-principal a{
+	display: inline-block;
+	margin-bottom: 10px;
+	color: gold;
+}
+
+.conteudo-principal h2{
+	color: gold;
+}
+
+#conteudos-laterais{
+	width: 300px;
+	float: right;
+}
+
+.conteudo-lateral{
+	background: white;
+	padding: 0 5px;
+	padding-top: 10px;
+	margin: 0 auto;
+	border-bottom: 1px dotted #ccc;
+}
+
+.conteudo-lateral a{
+	color: gold;
+}
+
+.conteudo-lateral h2{
+	margin-top: 3px;
+	background: #A9A9A9;
+}
+
+
+
+
+
+/* Categorias */
+
+#categorias{
+	background: white;
+	margin-top: 10px;
+	padding: 10px 10px;
+}
+
+#categorias a{
+	color: gold;
+}
+
+#categorias h2{
+	background: #A9A9A9;
+}
+
+/* Rodapé */
+
+#rodape{
+	clear: both;
+	text-align: center;
+	background: #A9A9A9;
+	padding: 10px;
+}
